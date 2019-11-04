@@ -1,4 +1,8 @@
 # ner
+1. 
+
+
+
 ## 博文介绍
 命名实体识别综述  https://zekizz.github.io/ML/NER-survey/
 
@@ -23,7 +27,8 @@ https://zhuanlan.zhihu.com/p/56582082
 
 NER任务的评测指标 https://blog.csdn.net/ANNILingMo/article/details/80398473
 
-
+一文详解深度学习在命名实体识别(NER)中的应用
+https://www.jiqizhixin.com/articles/2018-08-31-2
 
 
 
@@ -69,6 +74,7 @@ https://github.com/bamtercelboo/pytorch_NER_BiLSTM_CNN_CRF
 
 命名体识别竞赛之达观杯:
 https://www.biendata.com/competition/datagrand/leaderboard/
+
 
 baseline: bert_bilstm_crf https://github.com/zjcanjux/daguan_ner_Bert_bilstm_crf
 
