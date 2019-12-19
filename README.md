@@ -1,4 +1,4 @@
-# ner
+# NER-命名体识别任务资源总结
 
 
 ## 综述
@@ -8,9 +8,11 @@
 
 
 2. [命名实体识别综述-2](https://zekizz.github.io/ML/NER-survey/)
+
 本文比较详细的介绍了NER的各种细节，包括评价指标,监督学习，半监督学习，迁移学习等
 
 3. [A-Survey-on-Deep-Learning-for-Named-Entity-Recognition](  https://arxiv.org/abs/1812.09449)
+
 上面是一个综述论文
 
 
@@ -22,12 +24,15 @@
 
 ### CRF
 1. [最通俗易懂的BiLSTM-CRF模型中的CRF层介绍-孙孙的文章-知乎](https://zhuanlan.zhihu.com/p/44042528)
+
 这篇文章非常推荐！！！这是一篇翻译的文章，原文很精彩，值得细细品读，如果英文不好，可以看这个译文。这篇文章花了大量重点，介绍了CRF在BILSTM-CRF模型中的运行过程。
 
 2. [如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别-milter的回答-知乎](https://www.zhihu.com/question/35866596/answer/139485548)
+
 这个文章写的也很好，值得好好看看
 
 3. [如何理解LSTM后接CRF-知乎](https://www.zhihu.com/question/62399257)
+
 这个是我在读完上面两个之后，看到这个答案，尤其是高赞答案，一句简单的话，就点出了CRF在模型中的核心作用。
 
 ### 维特比算法
@@ -42,6 +47,7 @@
 
 
 1. [一些关于NER任务调研的小思考](http://kugwzk.info/index.php/archives/3204)
+  
   这个文章详细列出了他看过的关于NER的论文，并对每个论文做了一个简单概述
 
 
@@ -54,9 +60,11 @@
 
 1. 数据增强
 [一文详解深度学习在命名实体识别(NER)中的应用](https://www.jiqizhixin.com/articles/2018-08-31-2)
+
 这篇文章可以看看它的数据增强的部分，就是随机地对各个句子进行bigram、trigram拼接后与原始句子一起作为训练语料；词典随机替换；
 
 [小标注数据量下自然语言处理实战经验](https://www.jiqizhixin.com/articles/2019-08-16-6)
+
 这个文章详细阐述了达观在小标注语料情况下进行算法优化的经验，可以看一看
 
 
@@ -66,6 +74,7 @@
 ## 代码实现：
 
 1. [nlp_base](https://github.com/lpty/nlp_base)
+
 实现了以下算法:
 基于HMM的中文分词模型
 
@@ -93,6 +102,7 @@
 
 ## 竞赛
 1. [命名体识别竞赛之达观杯](https://www.biendata.com/competition/datagrand/leaderboard/)
+
 达观杯的信息抽取竞赛，数据是匿名数据，抽取a/b/c三个字段
 
 
