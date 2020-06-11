@@ -1,5 +1,34 @@
 # NER-命名体识别任务资源总结
 
+## 先列出来代码实现：
+
+1. [NLP实战-中文命名实体识别-MaggicQ的文章-知乎](https://zhuanlan.zhihu.com/p/61227299) ---这个代码很推荐了
+
+本文作者写的前言:
+本文章将通过pytorch作为主要工具实现不同的模型（包括HMM，CRF，Bi-LSTM，Bi-LSTM+CRF）来解决中文命名实体识别问题，文章不会涉及过多的数学推导，但会从直观上简单解释模型的原理，主要的内容会集中在代码部分。
+
+上述文章的代码是实现：
+[中文命名实体识别-包括多种模型-HMM-CRF-BiLSTM-BiLSTM+CRF的具体实现](https://github.com/luopeixiang/named_entity_recognition)
+
+2. Bert命名体识别代码实现[这里](https://github.com/circlePi/Bert_Chinese_Ner_pytorch)-使用的pytorch框架
+用的人民日报数据实现的中文命名体识别
+
+3. [nlp_base](https://github.com/lpty/nlp_base) 
+
+实现了以下算法:
+基于HMM的中文分词模型
+
+基于fasttext的情感极性判断模型
+
+基于MaxEnt的中文词性标注模型
+
+基于CRF的中文命名实体识别模型
+
+基于序列标注的中文依存句法分析模型
+
+基于Xgboost的中文疑问句判别模型
+
+
 
 ## 综述
 1. [命名识别综述-1](http://pelhans.com/2019/09/23/kg_paper-note4/)
@@ -66,38 +95,6 @@
 [小标注数据量下自然语言处理实战经验](https://www.jiqizhixin.com/articles/2019-08-16-6)
 
 这个文章详细阐述了达观在小标注语料情况下进行算法优化的经验，可以看一看
-
-
-
-
-
-## 代码实现：
-
-1. [nlp_base](https://github.com/lpty/nlp_base)
-
-实现了以下算法:
-基于HMM的中文分词模型
-
-基于fasttext的情感极性判断模型
-
-基于MaxEnt的中文词性标注模型
-
-基于CRF的中文命名实体识别模型
-
-基于序列标注的中文依存句法分析模型
-
-基于Xgboost的中文疑问句判别模型
-
-2. [NLP实战-中文命名实体识别-MaggicQ的文章-知乎](https://zhuanlan.zhihu.com/p/61227299)
-
-本文作者写的前言:
-本文章将通过pytorch作为主要工具实现不同的模型（包括HMM，CRF，Bi-LSTM，Bi-LSTM+CRF）来解决中文命名实体识别问题，文章不会涉及过多的数学推导，但会从直观上简单解释模型的原理，主要的内容会集中在代码部分。
-
-上述文章的代码是实现：
-[中文命名实体识别-包括多种模型-HMM-CRF-BiLSTM-BiLSTM+CRF的具体实现](https://github.com/luopeixiang/named_entity_recognition)
-
-
-
 
 
 ## 竞赛
