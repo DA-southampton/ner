@@ -11,6 +11,7 @@
 [中文命名实体识别-包括多种模型-HMM-CRF-BiLSTM-BiLSTM+CRF的具体实现](https://github.com/luopeixiang/named_entity_recognition)
 
 2. Bert命名体识别代码实现[这里](https://github.com/circlePi/Bert_Chinese_Ner_pytorch)-使用的pytorch框架
+
 用的人民日报数据实现的中文命名体识别
 
 3. [nlp_base](https://github.com/lpty/nlp_base) 
