@@ -4,15 +4,16 @@
 
 1. [NLP实战-中文命名实体识别-MaggicQ的文章-知乎](https://zhuanlan.zhihu.com/p/61227299) ---这个代码很推荐了
 
+
 本文作者写的前言:
 本文章将通过pytorch作为主要工具实现不同的模型（包括HMM，CRF，Bi-LSTM，Bi-LSTM+CRF）来解决中文命名实体识别问题，文章不会涉及过多的数学推导，但会从直观上简单解释模型的原理，主要的内容会集中在代码部分。
 
 上述文章的代码是实现：
 [中文命名实体识别-包括多种模型-HMM-CRF-BiLSTM-BiLSTM+CRF的具体实现](https://github.com/luopeixiang/named_entity_recognition)
 
-2. Bert命名体识别代码实现[这里](https://github.com/circlePi/Bert_Chinese_Ner_pytorch)-使用的pytorch框架
+2. Bert命名体识别代码实现[这里](https://github.com/circlePi/Bert_Chinese_Ner_pytorch)
 
-用的人民日报数据实现的中文命名体识别
+使用的pytorch框架，用的人民日报数据实现的中文命名体识别
 
 3. [nlp_base](https://github.com/lpty/nlp_base) 
 
